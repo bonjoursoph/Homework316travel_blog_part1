@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 .post {
 
 }
@@ -11,10 +15,21 @@
 
 section {
 	width: 70%;
-	float:; left;
+	float: left;
 }
 
 aside {
 	width: 30%;
-	float: right;
+	float: left;
+}
+
+.headernav {
+	padding: 25px;
+	width: 100%;
+}
+
+.clearfix: after {
+	content: "";
+	display: table;
+	clear: both;
 }
